@@ -2,18 +2,18 @@
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min; //The maximum is inclusive and the minimum is inclusive
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 
 //lists of places
 var all = ["McDonalds", "Culvers", "Lil Ceasers", "Taco Bell", "Taco Johns", "Pizza Ranch", "Jet's Pizza",
-"Burger King", "Dunkin' Donuts", "Kentucky Fried Chicken", "Fazoli's", "Alaroma", "Olive Garden", "Backyard Bar and Grill"];
+"Burger King", "Dunkin' Donuts", "Kentucky Fried Chicken", "Fazoli's", "Backyard Bar and Grill"];
 
 var pizzaplaces = ["Lil Ceasers", "Pizza Ranch", "Jet's Pizza"];
 
 var fastfoods = ["McDonalds", "Culvers", "Taco Bell", "Taco Johns", "Burger King", "Kentucky Fried Chicken"];
 
-var restur = ["Backyard Bar & Grill", "Olive Garden", "Alaroma"];
+var restur = ["Backyard Bar & Grill", "Fat Joes", "Applebees"];
 
 
 function any() {
