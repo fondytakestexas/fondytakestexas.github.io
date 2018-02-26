@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Max Holzmann | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="culvers.js"></script>
+ <link rel="icon" href="images/favicon.png">
+ <link rel="stylesheet" href="style.css" type=text/css>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Max Holzmann</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="biography.html">Bio</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Social Media
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://www.instagram.com/max._holzmann">Instagram</a></li>
+          <li><a href="https://twitter.com/MaxTheHLEEP">Twitter</a></li>
+          <li><a href="https://www.youtube.com/channel/UCxXArX2MdC4KBJAdccLrZpg?view_as=subscriber?&ab_channel=HLEEP">YouTube</a></li>
+          <li><a href="http://www.twitch.tv/hleep">Twitch</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="text-center">
+  <div class="jumbotron">
+
+    <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="images/max.jpg"></img>
+      </div>
+    </div>
+
+  <h1>Maximilian Holzmann</h1>
+
+  </div>
+</div>
+
+  <div class="jumbotron">
+    <img height="30%" width="30%" src="images/culvers-logo.png"></img>
+  <h2 class="h2">Culvers Receipt Code Generator</h2>
+</div>
+<div class="jumbotron">
+    <p class="lead">Press the magic button and receive a receipt code!</p>
+<br>
+
+  <script src="culvers.js"></script>
+    <button type="button" onclick="culversCode()" class="btn btn-lg btn-primary">Generate a code!</button>
+    <br>
+    <h2 class="lead">Your code is..</h2>
+    <h1 class="lead" id="code"></1>
+
+
+  </div>
+</div>
+</div>
+
+
+</body>
+
+</html>
